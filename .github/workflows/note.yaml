@@ -66,10 +66,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Claude Code SDK
-        run: |
-          npm init -y
-          npm i @anthropic-ai/claude-code
+
+      
+      - name: Install dependencies
+        run: npm install
 
       - name: Research with Claude Code SDK
         run: |
